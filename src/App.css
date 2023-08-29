@@ -1,0 +1,163 @@
+html {
+  max-width: 1200px;
+  max-height: 615px;
+  background-color: black;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+  
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.current-weather {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.containerPrincipal {
+
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.containerClimaHoy {
+
+  
+
+  background-color: purple;
+  width: 400px;
+  height: 618px;
+}
+
+.pronostico {
+  display: flex;
+  justify-content: space-between;
+
+  
+
+
+}
+
+
+
+.cardPronostico {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+ 
+  height: 150px;
+  width: 100px;
+  background-color: pink;
+}
+
+.cardPronostico > img {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.cardPronostico > span {
+  font-size: 14px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cositaDeAbajo {
+  color: white;
+  font-size: 10px;
+}
+
+.detalles {
+  display: flex;
+  
+  justify-content: center;
+  align-content: center;
+}
+
+.wind {
+  height: 150px;
+  width: 200px;
+  background-color: aqua;
+
+}
+
+.humidity {
+  height: 150px;
+  width: 200px;
+  background-color: aqua;
+}
+
+.air {
+  height: 100px;
+  width: 200px;
+  background-color: aqua;
+}
+
+.visibility {
+  height: 100px;
+  width: 200px;
+  background-color: aqua;
+}
+
+.arriba {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.abajo {
+  display: flex;
+  justify-content: space-between;
+
+}
